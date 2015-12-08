@@ -103,7 +103,7 @@ body {
   margin: 0 auto;
   width: 100%;
   font-family: 'Open Sans', sans-serif;
-  background: #f5f5f5;
+  background: #16c6e5;
   max-width: 1280px;
 }
 
@@ -111,6 +111,50 @@ body {
   @extend .grid;
   margin: 0 auto;
   width: 100%;
+}
+
+header {
+  width: 100%;
+  margin: 0 auto;
+
+    h1 {
+      color: #fff;
+      text-align: center;
+      font-size: 3.5em;
+      font-weight: 400;
+    }
+
+}
+
+section.team-images {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+
+    article {
+      display: inline-block;
+
+      div.info {
+        color: #fff;
+
+          h3.name {
+            margin-bottom: 0;
+          }
+
+          p {
+            margin-top: 1px;
+            font-weight: 200;
+          }
+      }
+
+    }
+
+    img {
+      // padding-right: 10%;
+      text-align: center;
+      margin: 0 auto;
+    }
+
 }
 
 
