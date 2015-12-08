@@ -173,7 +173,7 @@ section.button {
   button {
     background: $blue;
     border: 1px solid #fff;
-    padding: 10px 40px;
+    padding: 10px 35px;
     border-radius: 20px;
     margin-top: 80px;
     margin-bottom: 40px;
@@ -192,7 +192,7 @@ section.button {
         text-transform: uppercase;
         font-size: 1.2em;
         text-decoration: none;
-        font-weight: 400;
+        font-weight: 700;
     }
 
   }
@@ -206,6 +206,10 @@ section.button {
   article {
     padding-right: 0 !important;
     display: block !important;
+
+      img {
+        width: 80% !important;
+      }
   }
 
 

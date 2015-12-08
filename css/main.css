@@ -129,7 +129,7 @@ section.button {
   section.button button {
     background: #16c6e5;
     border: 1px solid #fff;
-    padding: 10px 40px;
+    padding: 10px 35px;
     border-radius: 20px;
     margin-top: 80px;
     margin-bottom: 40px; }
@@ -142,12 +142,14 @@ section.button {
       text-transform: uppercase;
       font-size: 1.2em;
       text-decoration: none;
-      font-weight: 400; }
+      font-weight: 700; }
 
 @media screen and (max-width: 423px) {
   article {
     padding-right: 0 !important;
-    display: block !important; } }
+    display: block !important; }
+    article img {
+      width: 80% !important; } }
 
 /* ==========================================================================
    Helper classes
