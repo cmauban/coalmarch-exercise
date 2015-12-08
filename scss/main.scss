@@ -95,6 +95,8 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+$blue: #16c6e5;
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -103,7 +105,7 @@ body {
   margin: 0 auto;
   width: 100%;
   font-family: 'Open Sans', sans-serif;
-  background: #16c6e5;
+  background: $blue;
   max-width: 1280px;
 }
 
@@ -154,6 +156,30 @@ section.team-images {
       text-align: center;
       margin: 0 auto;
     }
+
+} // END .team-images
+
+section.button {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+
+  button {
+    background: $blue;
+    border: 1px solid #fff;
+    padding: 10px 40px;
+    border-radius: 20px;
+
+    a[href] {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 1.2em;
+        text-decoration: none;
+        font-weight: 400;
+    }
+
+  }
+
 
 }
 
