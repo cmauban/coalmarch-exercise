@@ -1,0 +1,27 @@
+{
+  "name": "coalmarch-exercise",
+  "version": "0.0.0",
+  "description": "exercise",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --directory --startPath index.html --files='*.html, smain.css'",
+    "sass": "node-sass scss/main.scss css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmauban/coalmarch-exercise.git"
+  },
+  "author": [
+    "Camille Mauban <camille.mauban@gmail.com>"
+  ],
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/TIY-Durham/TIY-Catalog/issues"
+  },
+  "homepage": "https://github.com/TIY-Durham/TIY-Catalog#readme",
+  "devDependencies": {
+    "browser-sync": "^2.9.11",
+    "node-sass": "^3.3.3"
+  }
+}
