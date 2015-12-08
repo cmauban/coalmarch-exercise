@@ -102,10 +102,12 @@ header {
 
 section.team-images {
   margin: 0 auto;
-  width: 100%;
-  text-align: center; }
+  width: 80%;
+  text-align: center;
+  margin-top: 80px; }
   section.team-images article {
-    display: inline-block; }
+    display: inline-block;
+    padding-right: 10%; }
     section.team-images article div.info {
       color: #fff; }
       section.team-images article div.info h3.name {
@@ -113,7 +115,10 @@ section.team-images {
       section.team-images article div.info p {
         margin-top: 1px;
         font-weight: 200; }
+    section.team-images article:last-of-type {
+      padding-right: 0; }
   section.team-images img {
+    width: 100%;
     text-align: center;
     margin: 0 auto; }
 
@@ -125,7 +130,9 @@ section.button {
     background: #16c6e5;
     border: 1px solid #fff;
     padding: 10px 40px;
-    border-radius: 20px; }
+    border-radius: 20px;
+    margin-top: 80px;
+    margin-bottom: 40px; }
     section.button button:hover {
       background: #fff; }
       section.button button:hover a[href] {
@@ -136,6 +143,11 @@ section.button {
       font-size: 1.2em;
       text-decoration: none;
       font-weight: 400; }
+
+@media screen and (max-width: 423px) {
+  article {
+    padding-right: 0 !important;
+    display: block !important; } }
 
 /* ==========================================================================
    Helper classes

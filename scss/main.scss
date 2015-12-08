@@ -130,11 +130,13 @@ header {
 
 section.team-images {
   margin: 0 auto;
-  width: 100%;
+  width: 80%;
   text-align: center;
+  margin-top: 80px;
 
     article {
       display: inline-block;
+      padding-right: 10%;
 
       div.info {
         color: #fff;
@@ -149,10 +151,14 @@ section.team-images {
           }
       }
 
+      &:last-of-type {
+        padding-right: 0;
+      }
+
     }
 
     img {
-      // padding-right: 10%;
+      width: 100%;
       text-align: center;
       margin: 0 auto;
     }
@@ -169,6 +175,8 @@ section.button {
     border: 1px solid #fff;
     padding: 10px 40px;
     border-radius: 20px;
+    margin-top: 80px;
+    margin-bottom: 40px;
 
     &:hover {
       background: #fff;
@@ -193,6 +201,15 @@ section.button {
 }
 
 
+@media screen and (max-width: 423px) {
+
+  article {
+    padding-right: 0 !important;
+    display: block !important;
+  }
+
+
+}
 
 
 
