@@ -170,6 +170,15 @@ section.button {
     padding: 10px 40px;
     border-radius: 20px;
 
+    &:hover {
+      background: #fff;
+
+        a[href] {
+          color: $blue;
+        }
+
+    }
+
     a[href] {
         color: #fff;
         text-transform: uppercase;

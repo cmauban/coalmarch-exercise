@@ -126,6 +126,10 @@ section.button {
     border: 1px solid #fff;
     padding: 10px 40px;
     border-radius: 20px; }
+    section.button button:hover {
+      background: #fff; }
+      section.button button:hover a[href] {
+        color: #16c6e5; }
     section.button button a[href] {
       color: #fff;
       text-transform: uppercase;
